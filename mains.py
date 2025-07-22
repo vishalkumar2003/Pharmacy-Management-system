@@ -364,7 +364,7 @@ def customer(username, password):
 
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     drug_create_table()
     cust_create_table()
     order_create_table()
